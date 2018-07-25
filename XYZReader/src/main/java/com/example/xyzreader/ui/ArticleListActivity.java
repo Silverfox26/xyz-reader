@@ -67,6 +67,8 @@ public class ArticleListActivity extends AppCompatActivity implements
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
+        setSupportActionBar(mToolbar);
+
 
         final View toolbarContainerView = findViewById(R.id.toolbar_container);
 
